@@ -1,0 +1,243 @@
+[
+    {
+        "id": "chainerna",
+        "source": "https://c1.scryfall.com/file/scryfall-cards/normal/front/d/8/d8089e7f-7619-43fe-8e0b-31ce5d988a1b.jpg?1626100713",
+        "color" : ["black","red"],
+        "cname" : "Chainer, Nightmare Adept"
+    },
+    {
+        "id": "hallarff",
+        "source": "https://c1.scryfall.com/file/scryfall-cards/normal/front/c/8/c896643e-eeef-49a6-a1ca-2577b55af2b0.jpg?1562742764",
+        "color" : ["red","green"],
+        "cname" : "Hallar, the Firefletcher"
+    },
+    {
+        "id": "kykarwf",
+        "source": "https://c1.scryfall.com/file/scryfall-cards/normal/front/5/9/594cb7dc-ea88-4909-ab40-1d40fecc9817.jpg?1592517535",
+        "color" : ["white","blue", "red"],
+        "cname" : "Kykar, Wind's Fury"
+    },
+    {
+        "id": "tasigurgf",
+        "source": "https://c1.scryfall.com/file/scryfall-cards/normal/front/d/7/d7b7d726-c395-4af4-aa6a-e8e0c0582a1f.jpg?1559959246",
+        "color" : ["blue","black", "green"],
+        "cname" : "Tasigur, the Golden Fang"
+    },
+    {
+        "id": "yorionsn",
+        "source": "https://c1.scryfall.com/file/scryfall-cards/normal/front/2/7/275426c4-c14e-47d0-a9d4-24da7f6f6911.jpg?1616182288",
+        "color" : ["white","blue"],
+        "cname" : "Yorion, Sky Nomad"
+    },
+    {
+        "id": "suntitan",
+        "source": "https://c1.scryfall.com/file/scryfall-cards/normal/front/e/f/ef3e7352-5768-4d4e-befb-560b9d10a178.jpg?1604195833",
+        "color" : ["white"],
+        "cname" : "Sun Titan"
+    },
+    {
+        "id": "keeperaccord",
+        "source": "https://c1.scryfall.com/file/scryfall-cards/normal/front/3/7/37eec618-2c3d-423b-bbb7-72ef7deb38fc.jpg?1608908831",
+        "color" : ["white"],
+        "cname" : "Keeper of the Accord"
+    },
+    {
+        "id": "swordsplow",
+        "source": "https://c1.scryfall.com/file/scryfall-cards/normal/front/f/3/f3a0ae49-8aca-44fe-abea-2cff92a6adbc.jpg?1562855644",
+        "color" : ["white"],
+        "cname" : "Swords to Plowshares"
+    },
+    {
+        "id": "smothertithe",
+        "source": "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/a/7af082fa-86a3-4f7b-966d-2be1f1d0c0bc.jpg?1584830010",
+        "color" : ["white"],
+        "cname" : "Smothering Tithe"
+    },
+    {
+        "id": "austerecom",
+        "source": "https://c1.scryfall.com/file/scryfall-cards/normal/front/f/b/fb5db772-5ced-485f-a559-81b4e41bbff1.jpg?1608918311",
+        "color" : ["white"],
+        "cname" : "Austere Command"
+    },
+    {
+        "id": "ghostlyflicker",
+        "source": "https://c1.scryfall.com/file/scryfall-cards/normal/front/f/c/fccd7eda-5c10-4aa7-a70c-b52f685972e4.jpg?1593813057",
+        "color" : ["blue"],
+        "cname" : "Ghostly Flicker"
+    },
+    {
+        "id": "dreamhalls",
+        "source": "https://c1.scryfall.com/file/scryfall-cards/normal/front/f/f/ff4a22d9-007b-4eb7-af9e-b5c2cae36238.jpg?1562597859",
+        "color" : ["blue"],
+        "cname" : "Dream Halls"
+    },
+    {
+        "id": "thassadeep",
+        "source": "https://c1.scryfall.com/file/scryfall-cards/normal/front/c/8/c83ed3e0-82d0-4410-a6ca-b0f923eadf83.jpg?1581479572",
+        "color" : ["blue"],
+        "cname" : "Thassa, Deep Dwelling"
+    },
+    {
+        "id": "expropriate",
+        "source": "https://c1.scryfall.com/file/scryfall-cards/normal/front/4/6/46423a22-781b-4cb0-b3a9-9bf888b4f82a.jpg?1573507481",
+        "color" : ["blue"],
+        "cname" : "Expropriate"
+    },
+    {
+        "id": "sakashimathou",
+        "source": "https://c1.scryfall.com/file/scryfall-cards/normal/front/6/9/69639b23-9975-4356-ab7d-0aa3387e02c7.jpg?1612404054",
+        "color" : ["blue"],
+        "cname" : "Sakashima of a Thousand Faces"
+    },
+    {
+        "id": "bogwitch",
+        "source": "https://c1.scryfall.com/file/scryfall-cards/normal/front/6/a/6a926f9e-ee63-4b6e-8e5b-0650b74344a5.jpg?1562381351",
+        "color" : ["black"],
+        "cname" : "Bog Witch"
+        
+    },
+    {
+        "id": "oriqlorem",
+        "source": "https://c1.scryfall.com/file/scryfall-cards/normal/front/2/5/25214a91-2f64-46ee-9834-7fbf684800f7.jpg?1624591221",
+        "color" : ["black"],
+        "cname" : "Oriq Loremage"
+    },
+    {
+        "id": "sheoldred",
+        "source": "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/b/bbd672c9-46ae-4d2b-93d9-16271d2f71ff.jpg?1562853488",
+        "color" : ["black"],
+        "cname" : "Sheoldred, Whispering One"
+    },
+    {
+        "id": "toxicdeluge",
+        "source": "https://c1.scryfall.com/file/scryfall-cards/normal/front/d/0/d00fa18f-d50a-4d3f-929e-91f29141b1df.jpg?1599706034",
+        "color" : ["black"],
+        "cname" : "Toxic Deluge"
+    },
+    {
+        "id": "blackmarket",
+        "source": "https://c1.scryfall.com/file/scryfall-cards/normal/front/7/7/779f87b6-b99c-4eb1-a43e-af275b9ef3b1.jpg?1562613081",
+        "color" : ["black"],
+        "cname" : "Black Market"
+    },
+    {
+        "id": "sneakattack",
+        "source": "https://c1.scryfall.com/file/scryfall-cards/normal/front/3/d/3d9709ea-5962-4590-8b14-5213b14f9229.jpg?1599706719",
+        "color" : ["red"],
+        "cname" : "Sneak Attack"
+    },
+    {
+        "id": "surgetovictory",
+        "source": "https://c1.scryfall.com/file/scryfall-cards/normal/front/0/f/0f02698f-d954-42e0-b4d6-9daf65f29e36.jpg?1625192179",
+        "color" : ["red"],
+        "cname" : "Surge to Victory"
+    },
+    {
+        "id": "etalips",
+        "source": "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/0/b0f9f8b0-f0de-4dff-a8ea-857919366000.jpg?1619401469",
+        "color" : ["red"],
+        "cname" : "Etali, Primal Storm"
+    },
+    {
+        "id": "treasonousogre",
+        "source": "https://c1.scryfall.com/file/scryfall-cards/normal/front/8/2/823f356c-0ca9-4880-9f84-b22e2891948b.jpg?1583453689",
+        "color" : ["red"],
+        "cname" : "Treasonous Ogre"
+    },
+    {
+        "id": "dualcastermage",
+        "source": "https://c1.scryfall.com/file/scryfall-cards/normal/front/e/a/ea4814b8-9aea-4e44-aec1-d585473f5d1c.jpg?1599706312",
+        "color" : ["red"],
+        "cname" : "Dualcaster Mage"
+    },
+    {
+        "id": "seedbornmuse",
+        "source": "https://c1.scryfall.com/file/scryfall-cards/normal/front/e/3/e3174fb4-5ce1-4594-b338-e301228e6484.jpg?1568004654",
+        "color" : ["green"],
+        "cname" : "Seedborn Muse"
+    },
+    {
+        "id": "greatergood",
+        "source": "https://c1.scryfall.com/file/scryfall-cards/normal/front/e/8/e845f300-6a98-4057-9003-885185f30923.jpg?1562941610",
+        "color" : ["green"],
+        "cname" : "Greater Good"
+    },
+    {
+        "id": "ramunapexcavator",
+        "source": "https://c1.scryfall.com/file/scryfall-cards/normal/front/8/8/8870ef0b-cb1f-463b-8509-fece4743d3d4.jpg?1608917511",
+        "color" : ["green"],
+        "cname" : "Ramunap Excavator"
+    },
+    {
+        "id": "thegreathenge",
+        "source": "https://c1.scryfall.com/file/scryfall-cards/normal/front/a/f/af915ed2-1f34-43f6-85f5-2430325b720f.jpg?1572490580",
+        "color" : ["green"],
+        "cname" : "The Great Henge"
+    },
+    {
+        "id": "eternalwitness",
+        "source": "https://c1.scryfall.com/file/scryfall-cards/normal/front/d/7/d74e7ded-d063-4d90-a9ff-91c44a8098d7.jpg?1608917430",
+        "color" : ["green"],
+        "cname" : "Eternal Witness"
+    },
+    {
+        "id": "overabundance",
+        "source": "https://c1.scryfall.com/file/scryfall-cards/normal/front/4/1/4183e73d-609a-4292-b173-e39eb51949f3.jpg?1562908150",
+        "color" : ["red","green"],
+        "cname" : "Overabundance"
+    },
+    {
+        "id": "villainouswealth",
+        "source": "https://c1.scryfall.com/file/scryfall-cards/normal/front/5/9/59836c11-142b-4a19-bcbd-21b3464da71a.jpg?1591321507",
+        "color" : ["blue","black","green"],
+        "cname" : "Villainous Wealth"
+    },
+    {
+        "id": "garnathebloodflame",
+        "source": "https://c1.scryfall.com/file/scryfall-cards/normal/front/c/c/cc84b7cf-5c68-4bb1-a1dc-2a5fae3baf04.jpg?1559959271",
+        "color" : ["black","red"],
+        "cname" : "Garna, the Bloodflame"
+    },
+    {
+        "id": "whirlwindofthought",
+        "source": "https://c1.scryfall.com/file/scryfall-cards/normal/front/b/6/b6c48195-074a-4236-a82d-603b5dd1aa66.jpg?1604782550",
+        "color" : ["white","blue","red"],
+        "cname" : "Whirlwind of Thought"
+    },
+    {
+        "id": "eerieultimatum",
+        "source": "https://c1.scryfall.com/file/scryfall-cards/normal/front/3/a/3a9fb2db-228f-4d48-acdf-6330baf356c7.jpg?1591227996",
+        "color" : ["white","black","green"],
+        "cname" : "Eerie Ultimatum"
+    },
+    {
+        "id": "sundialoftheinfinite",
+        "source": "https://c1.scryfall.com/file/scryfall-cards/normal/front/d/7/d77b771d-9c7e-43b1-ac23-849ca882113b.jpg?1583453147",
+        "color" : ["colorless"],
+        "cname" : "Sundial of the Infinite"
+    },
+    {
+        "id": "rakdossignet",
+        "source": "https://c1.scryfall.com/file/scryfall-cards/normal/front/9/0/902d2af6-d52d-42bd-89d4-c0034fd0d763.jpg?1562616585",
+        "color" : ["colorless"],
+        "cname" : "Rakdos Signet"
+    },
+    {
+        "id": "skullclamp",
+        "source": "https://c1.scryfall.com/file/scryfall-cards/normal/front/d/7/d79d2cde-21e1-4540-8b84-8b2cb8b115a8.jpg?1562710252",
+        "color" : ["colorless"],
+        "cname" : "Skullclamp"
+    },
+    {
+        "id": "conjurerscloset",
+        "source": "https://c1.scryfall.com/file/scryfall-cards/normal/front/3/4/3435fd09-a7a2-475e-a690-3c2011b70024.jpg?1599708903",
+        "color" : ["colorless"],
+        "cname" : "Conjurer's Closet"
+    },
+    {
+        "id": "liquimetaltorque",
+        "source": "https://c1.scryfall.com/file/scryfall-cards/normal/front/1/3/13c6101a-da40-4785-8ccb-4e779bbbdb55.jpg?1626099120",
+        "color" : ["colorless"],
+        "cname" : "Liquimetal Torque"
+    }
+]
