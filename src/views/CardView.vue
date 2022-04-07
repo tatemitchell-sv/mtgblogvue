@@ -1,7 +1,7 @@
 <script setup>
     import { useRoute } from 'vue-router';
     import CardDetails from "../components/CardDetails.vue"
-    import data from "../../apicarddata"
+    import data from "../../apicarddata.js"
     const route = useRoute();
     const card = data.find(card=>card.id===route.params.id);
     console.log(card)

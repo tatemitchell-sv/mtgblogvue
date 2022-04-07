@@ -7,7 +7,7 @@
 <template>
     <h1>List of Cards</h1>
     <ul>
-        <li v-for="card in data">
+        <li v-for="card in data" :key="card.id">
             <card :card="card"></card>
         </li>
     </ul>
