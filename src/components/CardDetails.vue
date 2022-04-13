@@ -7,19 +7,15 @@ defineProps({ card: Object })
     <hr />
 
     <div class="row">
-        <div><img :src="card.imageUrl" /></div>
-        <div>
+        <div class="cardFrame"><img :src="card.imageUrl" /></div>
+        <div class="cardText">
             <p>{{ card.name }}</p>
-            <hr>
             <p>{{ card.manaCost }}</p>
-            <hr>
             <p>{{ card.type }}</p>
-            <hr>
             <p>{{ card.text }}</p>
-            <hr>
         </div>
     </div>
-
+    <hr />
     <h3>Card Rulings</h3>
     <ul>
         <li v-for="ruling in card.rulings" :key="ruling">
@@ -55,5 +51,40 @@ defineProps({ card: Object })
 <style scoped>
 footer {
     height: 50px;
+}
+
+.row {
+    display:flex;
+    padding: 20px 0px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 4%;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.cardFrame {
+    width: 35%;
+}
+.cardText {
+    width: calc(55% - 30px);
+    padding: 0px 30px;
+}
+p {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+ul {
+    padding-bottom: 20px;
+}
+li {
+    padding: 10px 10px;
+}
+
+h3 {
+    padding: 20px 10px;
 }
 </style>
