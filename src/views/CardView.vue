@@ -20,6 +20,7 @@ const replaceWithImg = str => {
     str = str.replaceAll("{R/G}", "<img class='manasymbol' src='@/../../src/assets/manaRG.png' />")
     str = str.replaceAll("{G/W}", "<img class='manasymbol' src='@/../../src/assets/manaGW.png' />")
     str = str.replaceAll("{G/U}", "<img class='manasymbol' src='@/../../src/assets/manaGU.png' />")
+    str = str.replaceAll("{C}", "<img class='manasymbol' src='@/../../src/assets/manaC.png' />")
     str = str.replaceAll("{X}", "<img class='manasymbol' src='@/../../src/assets/manaX.png' />")
     str = str.replaceAll("{Y}", "<img class='manasymbol' src='@/../../src/assets/manaY.png' />")
     str = str.replaceAll("{Z}", "<img class='manasymbol' src='@/../../src/assets/manaZ.png' />")
