@@ -1,13 +1,14 @@
 <script setup>
-    import ModalWrapper from "./ModalWrapper.vue"
-    defineProps({card: Object})
+import ModalWrapper from "./ModalWrapper.vue"
+defineProps({ card: Object })
 </script>
 
 <template>
     <ModalWrapper :img="card.imageUrl" :id="card.id">
-        {{card.name}}
+        {{ card.name }}
     </ModalWrapper>
-    <hr/>
+    <hr />
 </template>
 
-<style scoped></style>
+<style scoped>
+</style>

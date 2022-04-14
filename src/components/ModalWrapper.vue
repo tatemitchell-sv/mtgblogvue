@@ -3,7 +3,7 @@
 import { ref } from 'vue';
 import { RouterLink, RouterView } from 'vue-router'
 import Modal from "./Modal.vue"
-defineProps({img:String, id:String});
+defineProps({ img: String, id: String });
 
 let isModalVisible = ref(false);
 
@@ -22,9 +22,11 @@ const closeModal = () => {
 
 <template>
 
-    <a @click="showModal"><slot></slot></a>
+  <a @click="showModal">
+    <slot></slot>
+  </a>
 
-    <Modal v-show="isModalVisible" :img="$props.img" :id="$props.id" @close="closeModal" />
+  <Modal v-show="isModalVisible" :img="$props.img" :id="$props.id" @close="closeModal" />
 
 </template>
 

@@ -7,7 +7,7 @@ import Nav from "./components/Nav.vue"
 
 <template>
   <header>
-    <Nav/>
+    <Nav />
   </header>
 
   <div class="bgshader"></div>
@@ -39,17 +39,16 @@ a {
   color: white;
 }
 
-a:visited{
+a:visited {
   color: white;
 }
 
 .bgshader {
-  position : fixed;
+  position: fixed;
   top: 0;
   height: 100vh;
   width: 100vw;
   z-index: -1;
-  background-color: rgba(0,0,0,0.85);
+  background-color: rgba(0, 0, 0, 0.85);
 }
-
 </style>

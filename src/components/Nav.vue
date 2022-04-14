@@ -1,5 +1,5 @@
 <script setup>
-    import {RouterLink} from "vue-router"
+import { RouterLink } from "vue-router"
 
 </script>
 
@@ -18,6 +18,9 @@
             <li>
                 <RouterLink to="/cardlist">Card List</RouterLink>
             </li>
+            <li>
+                <RouterLink to="/cardsearch">Search Cards</RouterLink>
+            </li>
         </ul>
     </nav>
 </template>
@@ -27,17 +30,20 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
-    background-image: repeating-linear-gradient(rgba(0,0,0,1) 10%, rgba(21,26,29,1) 20%, rgba(21,26,29,1) 80%, rgba(0,0,0,1) 90%);
+    background-image: repeating-linear-gradient(rgba(0, 0, 0, 1) 10%, rgba(21, 26, 29, 1) 20%, rgba(21, 26, 29, 1) 80%, rgba(0, 0, 0, 1) 90%);
     z-index: 10;
-}   
-nav ul{
+}
+
+nav ul {
     list-style: none;
 }
+
 nav ul li {
-    display:inline-block;
+    display: inline-block;
     padding: 10px 20px;
 }
-nav a ,
+
+nav a,
 nav .brand {
     text-decoration: none;
     font-size: 25px;

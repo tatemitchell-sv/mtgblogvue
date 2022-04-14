@@ -9,12 +9,12 @@ const toggleAccordion = () => {
 
 <template>
 
-<button @click="toggleAccordion()">
+    <button @click="toggleAccordion()">
 
-</button>
-<div class="accordion" v-show="isOpen">
-    <slot />
-</div>
+    </button>
+    <div class="accordion" v-show="isOpen">
+        <slot />
+    </div>
 
 </template>
 

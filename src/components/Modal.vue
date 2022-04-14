@@ -1,6 +1,6 @@
 <script setup>
 import { RouterLink } from "vue-router";
-defineProps({img:String, id:String});
+defineProps({ img: String, id: String });
 const emit = defineEmits()
 const close = () => {
     emit('close');

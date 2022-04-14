@@ -46,10 +46,6 @@ defineProps({ card: Object })
         </Accordion>
         <hr>
 
-        <!-- <pre>{{JSON.stringify(card, null, 4)}}</pre> -->
-
-
-
         <footer></footer>
     </div>
 </template>
