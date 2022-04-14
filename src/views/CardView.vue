@@ -26,23 +26,28 @@ const replaceWithImg = str => {
     str = str.replaceAll("{Z}", "<img class='manasymbol' src='@/../../src/assets/manaZ.png' />")
     str = str.replaceAll("{T}", "<img class='manasymbol' src='@/../../src/assets/tapArrow.png' />")
 
-    for (let i=0; i < 21; i++) {
+    for (let i = 0; i < 21; i++) {
         str = str.replaceAll("{" + i + "}", "<img class='manasymbol' src='@/../../src/assets/mana" + i + ".png' />")
     }
-
     return str;
 }
 
-const formattedData = data.map(card => {
-    return {
-        ...card,
-        manaCost: replaceWithImg(card.manaCost),
-        text: replaceWithImg(card.text)
-    }
-})
-const card = formattedData.find(card => card.id === route.params.id);
+const card = data.find(card => card.id === route.params.id);
+card.manaCost = replaceWithImg(card.manaCost);
+card.text = replaceWithImg(card.text);
+card.edhrecFormat = card.name.replace(/[^\w\s]/gi, '') .replace(/\s/g , "-") .toLowerCase();
 
-console.log(card)
+// const formattedData = data.map(card => {
+//     return {
+//         ...card,
+//         manaCost: replaceWithImg(card.manaCost),
+//         text: replaceWithImg(card.text),
+//         edhrecFormat: edhrecNameUrl
+//     }
+// })
+
+
+
 </script>
 
 <template>

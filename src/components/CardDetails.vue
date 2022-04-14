@@ -1,5 +1,7 @@
 <script setup>
+import Accordion from "./Accordion.vue"
 defineProps({ card: Object })
+
 </script>
 
 <template>
@@ -14,26 +16,39 @@ defineProps({ card: Object })
                 <p v-html="'Mana Cost: ' + card.manaCost"></p>
                 <p>{{ card.type }}</p>
                 <p v-html="card.text"></p>
+                <hr />
+                <p>Build a Commander deck with this card at <a target="_blank"
+                        :href="`https://edhrec.com/cards/${card.edhrecFormat}`">edhrec.com</a></p>
+                <p>Combo off with this card at <a target="_blank"
+                        :href="`https://commanderspellbook.com/search/?q=${card.name}`">commanderspellbook.com</a></p>
+                <p>Purchase this card at <a target="_blank"
+                        :href="`https://www.cardkingdom.com/catalog/search?search=header&ac=1&filter%5Bname%5D=${card.name}`">cardkingdom.com</a>
+                </p>
             </div>
         </div>
         <hr />
         <h3>Card Rulings</h3>
-        <ul>
-            <li v-for="ruling in card.rulings" :key="ruling">
-                {{ ruling.date }} - {{ ruling.text }}
-            </li>
-        </ul>
+        <Accordion>
+            <ul>
+                <li v-for="ruling in card.rulings" :key="ruling">
+                    {{ ruling.date }} - {{ ruling.text }}
+                </li>
+            </ul>
+        </Accordion>
         <hr>
-
         <h3>Card Legalities</h3>
-        <ul>
-            <li v-for="legality in card.legalities" :key="legality">
-                {{ legality.format }} - {{ legality.legality }}
-            </li>
-        </ul>
+        <Accordion>
+            <ul>
+                <li v-for="legality in card.legalities" :key="legality">
+                    {{ legality.format }} - {{ legality.legality }}
+                </li>
+            </ul>
+        </Accordion>
         <hr>
 
         <!-- <pre>{{JSON.stringify(card, null, 4)}}</pre> -->
+
+
 
         <footer></footer>
     </div>
@@ -75,6 +90,7 @@ defineProps({ card: Object })
     width: 20px;
     height: auto;
     margin: 0 2px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.28), 0 6px 6px rgba(0, 0, 0, 0.8);
 }
 
 .cardDetails ul {

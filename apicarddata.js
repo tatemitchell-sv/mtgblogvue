@@ -2433,6 +2433,150 @@ export default [
         ],
         "id": "009e6685-ebc6-5091-8c91-9fb33307ed1b"
     },
+    // Hullbreacher
+    {
+        "name": "Hullbreacher",
+        "manaCost": "{2}{U}",
+        "cmc": 3,
+        "colors": [
+            "Blue"
+        ],
+        "colorIdentity": [
+            "U"
+        ],
+        "type": "Creature — Merfolk Pirate",
+        "types": [
+            "Creature"
+        ],
+        "subtypes": [
+            "Merfolk",
+            "Pirate"
+        ],
+        "rarity": "Rare",
+        "set": "CMR",
+        "setName": "Commander Legends",
+        "text": "Flash\nIf an opponent would draw a card except the first one they draw in each of their draw steps, instead you create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
+        "flavor": "\"I don't need a map to find riches.\"",
+        "artist": "Sidharth Chaturvedi",
+        "number": "74",
+        "power": "3",
+        "toughness": "2",
+        "layout": "normal",
+        "multiverseid": "497594",
+        "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=497594&type=card",
+        "variations": [
+            "e1aaa71d-c9fa-5aeb-9262-fcf933db3929"
+        ],
+        "rulings": [
+            {
+                "date": "2020-11-10",
+                "text": "If multiple replacement effects apply to the same card draw, the player drawing the card chooses the order in which to apply them."
+            },
+            {
+                "date": "2020-11-10",
+                "text": "If you control multiple Hullbreachers while an opponent would draw a card except their first one in their draw step, you’ll create only one Treasure."
+            }
+        ],
+        "foreignNames": [
+            {
+                "name": "Schiffsrumpfbrecher",
+                "text": "Aufblitzen\nFalls ein Gegner eine Karte ziehen würde, abgesehen von der ersten, die er in jedem seiner Ziehsegmente zieht, erzeugst stattdessen du einen Schatz-Spielstein. (Er ist ein Artefakt mit „{T}, opfere dieses Artefakt: Erzeuge ein Mana einer beliebigen Farbe.\")",
+                "type": "Kreatur — Meervolk, Pirat",
+                "flavor": "„Ich brauche keine Schatzkarte, um Reichtümer zu finden.\"",
+                "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=497955&type=card",
+                "language": "German",
+                "multiverseid": 497955
+            },
+            {
+                "name": "Rompecascos",
+                "text": "Destello.\nSi un oponente fuera a robar una carta excepto la primera que roba en cada uno de sus pasos de robar, en vez de eso, tú creas una ficha de Tesoro. (Es un artefacto con \"{T}, sacrificar este artefacto: Agrega un maná de cualquier color\".)",
+                "type": "Criatura — Pirata tritón",
+                "flavor": "\"No necesito ningún mapa para encontrar tesoros\".",
+                "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=498316&type=card",
+                "language": "Spanish",
+                "multiverseid": 498316
+            },
+            {
+                "name": "Perceur de coque",
+                "text": "Flash\nSi un adversaire devait piocher une carte excepté la première qu'il pioche à chacune de ses étapes de pioche, à la place vous créez un jeton Trésor. (C'est un artefact avec « {T}, sacrifiez cet artefact : Ajoutez un mana de la couleur de votre choix. »)",
+                "type": "Créature : ondin et pirate",
+                "flavor": "« Je n'ai pas besoin de carte pour trouver des trésors. »",
+                "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=498677&type=card",
+                "language": "French",
+                "multiverseid": 498677
+            },
+            {
+                "name": "Sfondascafo",
+                "text": "Lampo\nSe un avversario sta per pescare una carta, tranne la prima che pesca in ognuna delle sue sottofasi di acquisizione, tu crei invece una pedina Tesoro. (È un artefatto con: \"{T}, Sacrifica questo artefatto: Aggiungi un mana di un qualsiasi colore\".)",
+                "type": "Creatura — Pirata Tritone",
+                "flavor": "\"Non ho bisogno di mappe per trovare tesori.\"",
+                "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=499038&type=card",
+                "language": "Italian",
+                "multiverseid": 499038
+            },
+            {
+                "name": "船殻破り",
+                "text": "瞬速\n対戦相手が、自分の各ドロー・ステップ内で初めて引くカード以外のカードを１枚引くなら、代わりに、あなたは宝物・トークンを１つ生成する。（それは、「{T}, このアーティファクトを生け贄に捧げる：好きな色１色のマナ１点を加える。」を持つアーティファクトである。）",
+                "type": "クリーチャー — マーフォーク・海賊",
+                "flavor": "「財宝を見つけるのに海図は必要ねぇ。」",
+                "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=499399&type=card",
+                "language": "Japanese",
+                "multiverseid": 499399
+            },
+            {
+                "name": "Fura-casco",
+                "text": "Lampejo\nSe um oponente compraria um card que não seja o primeiro em cada etapa de compra dele, em vez disso, você cria uma ficha de Tesouro. (Ela é um artefato com \"{T}, sacrifique este artefato: Adicione um mana de qualquer cor\".)",
+                "type": "Criatura — Tritão Pirata",
+                "flavor": "\"Eu não preciso de um mapa para encontrar tesouros.\"",
+                "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=499760&type=card",
+                "language": "Portuguese (Brazil)",
+                "multiverseid": 499760
+            },
+            {
+                "name": "破船勇盗",
+                "text": "闪现\n如果某对手将抓一张牌，且这不是其于自己的每个抓牌步骤中所抓的第一张牌，则改为你派出一个珍宝衍生物。（珍宝衍生物是具有「{T}，牺牲此神器：加一点任意颜色的法术力」的神器。）",
+                "type": "生物 ～人鱼／海盗",
+                "flavor": "「我不用地图也能找到财宝。」",
+                "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=500121&type=card",
+                "language": "Chinese Simplified",
+                "multiverseid": 500121
+            },
+            {
+                "name": "破船勇盜",
+                "text": "閃現\n如果某對手將抽一張牌，且這不是其於自己的每個抽牌步驟中所抽的第一張牌，則改為你派出一個珍寶衍生物。（珍寶衍生物是具有「{T}，犧牲此神器：加一點任意顏色的魔法力」的神器。）",
+                "type": "生物 ～人魚／海盜",
+                "flavor": "「我不用地圖也能找到財寶。」",
+                "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=500482&type=card",
+                "language": "Chinese Traditional",
+                "multiverseid": 500482
+            }
+        ],
+        "printings": [
+            "CMR",
+            "PRM"
+        ],
+        "originalText": "Flash\nIf an opponent would draw a card except the first one they draw in each of their draw steps, instead you create a Treasure token. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
+        "originalType": "Creature — Merfolk Pirate",
+        "legalities": [
+            {
+                "format": "Commander",
+                "legality": "Banned"
+            },
+            {
+                "format": "Duel",
+                "legality": "Legal"
+            },
+            {
+                "format": "Legacy",
+                "legality": "Legal"
+            },
+            {
+                "format": "Vintage",
+                "legality": "Legal"
+            }
+        ],
+        "id": "96d97be2-9f7f-59ff-9584-91caf1920f31"
+    },
     // Bog Witch
     {
         "name": "Bog Witch",
