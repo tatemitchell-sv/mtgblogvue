@@ -60,7 +60,7 @@ defineProps({ card: Object })
     padding: 20px 0px;
 }
 
-.cardDetails img {
+.cardDetails .cardImg {
     width: 100%;
     height: auto;
     border-radius: 4%;
