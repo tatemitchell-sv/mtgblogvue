@@ -12,10 +12,8 @@ API.findCardById(route.params.id).then(response => {
     card.value = response.data.cards[0];
     card.value.manaCost = replaceWithImg(card.value.manaCost);
     card.value.text = replaceWithImg(card.value.text);
-    card.value.edhrecFormat = card.value.name.replace(/[^\w\s]/gi, '') .replace(/\s/g , "-") .toLowerCase();
+    card.value.edhrecFormat = card.value.name.replace(/[ ]*,[ ]*|[ ]+/gi, '-') .replace(/[ ]*'[ ]*|[ ]+/gi, '') .replace(/\s/g , "-") .toLowerCase();
 })
-
-
 
 </script>
 
